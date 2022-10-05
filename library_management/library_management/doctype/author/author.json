@@ -35,15 +35,16 @@
   },
   {
    "fieldname": "affiliation",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Affiliation"
+   "label": "Affiliation",
+   "options": "Organisation"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-05 16:47:26.612497",
+ "modified": "2022-10-05 16:54:38.002701",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Author",
