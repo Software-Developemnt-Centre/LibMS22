@@ -35,7 +35,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-05 14:52:51.506488",
+ "modified": "2022-10-05 18:30:05.092867",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Publisher",
@@ -55,6 +55,7 @@
    "write": 1
   }
  ],
+ "search_fields": "country",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],

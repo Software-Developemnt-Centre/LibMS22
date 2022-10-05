@@ -4,6 +4,7 @@
  "autoname": "prompt",
  "creation": "2022-10-05 16:33:17.634085",
  "doctype": "DocType",
+ "document_type": "Document",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
@@ -43,7 +44,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-05 16:57:35.324455",
+ "modified": "2022-10-05 18:24:58.391274",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Organisation",
@@ -63,6 +64,7 @@
    "write": 1
   }
  ],
+ "search_fields": "organisation_name",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
