@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "prompt",
  "creation": "2022-10-05 16:33:17.634085",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -21,21 +22,28 @@
   {
    "fieldname": "city",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "City"
   },
   {
    "default": "India",
    "fieldname": "country",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Country"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-05 16:33:17.634085",
+ "modified": "2022-10-05 16:44:18.176160",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Organisation",
+ "naming_rule": "Set by user",
  "owner": "Administrator",
  "permissions": [
   {
