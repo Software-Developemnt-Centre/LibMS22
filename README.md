@@ -1,6 +1,6 @@
 ## Library Management
 
-Library Management System
+Library Management System : by H S Rai
 
 #### License
 
