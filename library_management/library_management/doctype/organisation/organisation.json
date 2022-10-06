@@ -9,8 +9,8 @@
  "engine": "InnoDB",
  "field_order": [
   "organisation_name",
-  "city",
-  "country"
+  "country",
+  "city"
  ],
  "fields": [
   {
@@ -44,7 +44,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-05 18:24:58.391274",
+ "modified": "2022-10-05 21:50:48.104566",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Organisation",
