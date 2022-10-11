@@ -24,7 +24,7 @@
    "reqd": 1
   },
   {
-   "default": "Country",
+   "default": "India",
    "fieldname": "country",
    "fieldtype": "Link",
    "in_list_view": 1,
@@ -36,7 +36,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-09 21:45:40.741066",
+ "modified": "2022-10-11 22:04:43.814667",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Organisation",
