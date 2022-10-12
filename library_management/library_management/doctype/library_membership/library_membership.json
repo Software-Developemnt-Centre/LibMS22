@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "LMS-.###",
  "creation": "2022-10-12 11:30:16.746635",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -58,10 +59,11 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-10-12 11:37:15.339122",
+ "modified": "2022-10-12 11:50:39.765755",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Membership",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
@@ -79,5 +81,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "full_name"
 }
