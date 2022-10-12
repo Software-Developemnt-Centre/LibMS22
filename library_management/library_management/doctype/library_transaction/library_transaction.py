@@ -13,7 +13,6 @@ import frappe
 from frappe.model.document import Document
 from frappe.model.docstatus import DocStatus
 
-
 class LibraryTransaction(Document):
     def before_submit(self):
         if self.type == "Issue":
@@ -56,3 +55,13 @@ class LibraryTransaction(Document):
         )
         if not valid_membership:
             frappe.throw("The member does not have a valid membership")
+            
+            
+    def validate_maximum_limit(self):
+        max_articles = frappe.db.get_single_value("Library Settings", "max_articles")
+        count = frappe.db.count(
+            "Library Transaction",
+            {"library_member": self.library_member, "type": "Issue", "docstatus": DocStatus.submitted()},
+        )
+        if count >= max_articles:
+            frappe.throw("Maximum limit reached for issuing articles")
