@@ -15,7 +15,7 @@ from frappe.model.docstatus import DocStatus
 
 class LibraryMembership(Document):
     # check before submitting this document
-    def before_submit(self):
+    def before_save(self):
         exists = frappe.db.exists(
             "Library Membership",
             {
