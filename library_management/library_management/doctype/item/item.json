@@ -18,9 +18,9 @@
   "author2",
   "author3",
   "section_break_8",
+  "published",
   "description",
-  "route",
-  "published"
+  "route"
  ],
  "fields": [
   {
@@ -82,7 +82,7 @@
   {
    "fieldname": "author3",
    "fieldtype": "Link",
-   "label": "Author2",
+   "label": "Author3",
    "options": "Author"
   },
   {
@@ -91,7 +91,7 @@
    "label": "Route"
   },
   {
-   "default": "0",
+   "default": "1",
    "fieldname": "published",
    "fieldtype": "Check",
    "label": "Published"
@@ -102,7 +102,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2022-10-12 14:00:23.395709",
+ "modified": "2022-10-15 11:40:56.745632",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Item",
@@ -144,6 +144,8 @@
   }
  ],
  "route": "items",
+ "search_fields": "item_name",
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
