@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_rename": 1,
  "autoname": "field:publisher_name",
  "creation": "2022-10-05 14:47:52.395370",
@@ -9,7 +10,8 @@
  "field_order": [
   "publisher_name",
   "country",
-  "city"
+  "city",
+  "route"
  ],
  "fields": [
   {
@@ -32,11 +34,17 @@
    "fieldname": "city",
    "fieldtype": "Data",
    "label": "City"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
   }
  ],
+ "has_web_view": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-10-23 21:42:15.634299",
+ "modified": "2022-11-10 16:09:37.462904",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Publisher",
@@ -77,6 +85,7 @@
    "share": 1
   }
  ],
+ "route": "XXX",
  "search_fields": "country",
  "sort_field": "modified",
  "sort_order": "DESC",
