@@ -1,25 +1,26 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_rename": 1,
+ "autoname": "format:Area-{###}",
  "creation": "2023-07-09 08:11:52.637379",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "title",
   "length",
+  "column_break_rl00o",
   "width",
+  "section_break_epzzu",
   "area",
+  "column_break_ks8lv",
   "perimeter",
-  "on_web"
+  "section_break_zclzz",
+  "on_web",
+  "route"
  ],
  "fields": [
-  {
-   "fieldname": "title",
-   "fieldtype": "Data",
-   "label": "Title"
-  },
   {
    "fieldname": "length",
    "fieldtype": "Float",
@@ -37,26 +38,55 @@
   {
    "fieldname": "area",
    "fieldtype": "Float",
-   "label": "Area"
+   "label": "Area",
+   "read_only": 1
   },
   {
    "fieldname": "perimeter",
    "fieldtype": "Float",
-   "label": "Perimeter"
+   "label": "Perimeter",
+   "read_only": 1
   },
   {
    "default": "1",
    "fieldname": "on_web",
    "fieldtype": "Check",
    "label": "On Web"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Route",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_rl00o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_epzzu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ks8lv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_zclzz",
+   "fieldtype": "Section Break"
   }
  ],
+ "has_web_view": 1,
  "index_web_pages_for_search": 1,
+ "is_published_field": "on_web",
  "links": [],
- "modified": "2023-07-09 08:11:52.637379",
+ "modified": "2023-07-09 08:55:38.305036",
  "modified_by": "Administrator",
  "module": "TrainingJuly23",
  "name": "TestDoc",
+ "name_case": "UPPER CASE",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -73,6 +103,7 @@
   }
  ],
  "quick_entry": 1,
+ "route": "testdoc",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
